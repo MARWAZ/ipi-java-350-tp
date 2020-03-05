@@ -41,7 +41,7 @@ public class EmployeService {
             lastMatricule = Entreprise.MATRICULE_INITIAL;
         }
         //... et incrémentation
-        Integer numeroMatricule = Integer.parseInt(lastMatricule) + 1;
+        Integer numeroMatricule= Integer.parseInt(lastMatricule) + 1;
 
         //On complète le numéro avec des 0 à gauche
         String matricule = "00000" + numeroMatricule;
